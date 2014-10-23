@@ -33,7 +33,7 @@ makeCacheMatrix <- function(x = matrix()) {
   
   #  'set_inverse' is a function that will take its parameter and superassign
   #  it to the variable matrix_inverse 
-  #  (hunting matrix_inverse down in calling environments
+  #  (hunting matrix_inverse down in calling environments)
   
   set_inverse <- function(inverse) {
     matrix_inverse <<- inverse
